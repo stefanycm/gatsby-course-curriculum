@@ -1,8 +1,13 @@
 import React from 'react';
+import { Button } from 'react-bootstrap';
 
 const IndexPage = () => {
   return (
-    <h1>Home</h1>
+    <main>
+      <h1>Home</h1>
+      <Button variant="primary">Click me</Button>
+      <Button variant="danger">Danger</Button>
+    </main>
   );
 };
 
