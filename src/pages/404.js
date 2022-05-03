@@ -1,8 +1,11 @@
 import * as React from 'react';
+import BasicLayout from '../layouts/BasicLayout';
 
 const NotFoundPage = () => {
   return (
-    <h1>Not found</h1>
+    <BasicLayout>
+      <h1>Not found</h1>
+    </BasicLayout>
   );
 };
 
